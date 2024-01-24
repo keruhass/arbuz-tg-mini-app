@@ -1,11 +1,16 @@
 .mainCounter {
-    
     width: fit-content;
+    margin-top: 50px;
+    grid-gap: 20px;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-
+}
+.mainCounter__icon {
+    width: 60px;
+    height: 60px;
 }
 .mainCounter__text {
-    font-size: 48px;
+    font-size: 60px;
     color: black;
 }

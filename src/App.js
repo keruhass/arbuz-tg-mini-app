@@ -21,11 +21,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button onClick={onClose}>Закрыть</button>
+
+        <button onClick={onClose} className='closeBtn'><h1>&#10006;</h1></button>
+
         <Routes>
           <Route index element={<MainPage/>} />
           <Route path={'/boostpage'} element={<BoostPage/>} />
         </Routes>
+
         <Link to='/boostpage'>Усиления</Link>
       </header>
     </div>
