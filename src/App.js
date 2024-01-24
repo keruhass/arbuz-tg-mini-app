@@ -24,7 +24,7 @@ function App() {
         </Routes>
 
         <div className='nav'>
-          <Link className='link' to='/boostpage'><h1>Усиления &#128640;</h1></Link>
+          <Link className='link' to='/boostpage'><h2>Boosts &#128640;</h2></Link>
         </div>
 
       </header>

@@ -1,0 +1,21 @@
+.boostpage {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: fit-content;
+    display: flex;
+    grid-gap: 20px;
+    flex-direction: column;
+}
+.boostpage div {
+    width: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(8, 8, 8, 0.486);
+    opacity: 0.9;
+}
+.boostpage div h4 {
+    color: rgba(252, 252, 252, 0.726);
+}

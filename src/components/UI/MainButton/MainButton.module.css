@@ -6,6 +6,9 @@
     margin-left: auto;
     margin-right: auto;
     background: none;
+    border: none;
+    -webkit-filter: drop-shadow(10px 10px 10px #000000);
+    filter: drop-shadow(10px 10px 10px #000000);
 }
 .mainBtn__img {
     width: 350px;

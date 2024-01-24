@@ -4,14 +4,26 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(./sources/fonts/Ubutntu/Ubuntu-Bold.ttf);
+}
+
 h1,h2,h3,h4,h5,h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Ubuntu;
+  color: white;
+}
+body {
+  background-color: rgba(20, 20, 20, 0.945);
 }
 .nav {
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
-  border: 1px solid black;
 }
 .link {
   position: static;

@@ -7,10 +7,12 @@
     margin-right: auto;
 }
 .mainCounter__icon {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
+    -webkit-filter: drop-shadow(3px 3px 3px #000000);
+    filter: drop-shadow(3px 3px 3px #000000);
 }
 .mainCounter__text {
-    font-size: 60px;
-    color: black;
+    font-size: 45px;
+    color: white;
 }
