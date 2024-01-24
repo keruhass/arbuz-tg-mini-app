@@ -1,6 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
+
+import {Link, Route, Routes} from 'react-router-dom'
+import MainPage from './components/MainPage/MainPage';
+import BoostPage from './components/BoostPage/BoostPage';
 
 const tg = window.Telegram.WebApp;
 
@@ -17,8 +20,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>It's working</h1>
         <button onClick={onClose}>Закрыть</button>
+
+        <Routes>
+          <Route index element={<MainPage/>} />
+          <Route path={'/boostpage'} element={<BoostPage/>} />
+        </Routes>
+        <Link to='/boostpage'>Усиления</Link>
       </header>
     </div>
   );
