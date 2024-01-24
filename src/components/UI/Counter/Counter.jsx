@@ -5,8 +5,8 @@ import classes from './Counter.module.css'
 const Counter = ({update}) => {
 
     return (
-        <div>
-            <h1 className={classes.mainCounter}>{update}</h1>
+        <div className={classes.mainCounter}>
+            <h1 className={classes.mainCounter__text}>{update}</h1>
         </div>
     )
 

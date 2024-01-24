@@ -1,11 +1,11 @@
 .mainBtn {
     overflow: hidden;
-    width: 200px;
-    height: 200px;
-    /* background: none;
-    border: none; */
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
 }
 .mainBtn__img {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }   

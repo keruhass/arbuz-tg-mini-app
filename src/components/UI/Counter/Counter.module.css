@@ -1,4 +1,11 @@
 .mainCounter {
-    font-size: 24px;
+    
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.mainCounter__text {
+    font-size: 48px;
     color: black;
 }
