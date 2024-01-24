@@ -14,22 +14,19 @@ function App() {
     tg.ready();
   }, [])
 
-  const onClose = () => {
-    tg.close()
-  }
-
   return (
     <div className="App">
       <header className="App-header">
-
-        <button onClick={onClose} className='closeBtn'><h1>&#10006;</h1></button>
 
         <Routes>
           <Route index element={<MainPage/>} />
           <Route path={'/boostpage'} element={<BoostPage/>} />
         </Routes>
 
-        <Link to='/boostpage'>Усиления</Link>
+        <div className='nav'>
+          <Link className='link' to='/boostpage'><h1>Усиления &#128640;</h1></Link>
+        </div>
+
       </header>
     </div>
   );
